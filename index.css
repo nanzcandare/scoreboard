@@ -1,0 +1,119 @@
+body {
+    margin: 0 auto;
+    background: rgba(27, 36, 74, 1);
+    width: 600px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400px;
+    font-family: 'Verdana';
+    text-align: center;
+    margin: 0 auto 20px auto;
+    text-shadow: none;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #FF0000;
+    padding: 25px 45px 2px 25px;
+    width: 130px;
+    background: black;
+    border-radius: 5px;
+    text-align: right;
+    margin: 0;
+    }
+
+.btnscore-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto 0 auto;    
+}
+
+.btnscore {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: rgba(27, 36, 74, 1);
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-newgame {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: rgba(27, 36, 74, 1);
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 40px auto;
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+}
+
+.fouls-period-container {
+    margin-top: 5px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnfouls-container, .btnperiod-container {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: baseline;   
+     
+}
+
+.fouls {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-align: right;
+    font-size: 40px;
+    color: 	#FFA500;
+    padding: 5px; 
+    width: 563px;
+    background: black;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.period {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-align: right;
+    font-size: 40px;
+    color: 	#FFEA00;
+    padding: 5px; 
+    width: 53px;
+    background: black;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+
+
+
+.btnfoul {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: rgba(27, 36, 74, 1);
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+

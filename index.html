@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-container">
+                <h3 id="home">HOME</h3>
+                <p class="score" id="home-score">0</p>
+                <div class="btnscore-container">
+                    <button class="btnscore" onclick="homePlus1()">+1</button>
+                    <button class="btnscore" onclick="homePlus2()">+2</button>
+                    <button class="btnscore" onclick="homePlus3()">+3</button>
+                </div>
+            </div>
+            <div class="guest-container">
+                <h3 id="guest">GUEST</h3>
+                <p class="score" id="guest-score">0</p>
+                <div class="btnscore-container">
+                    <button class="btnscore" onclick="guestPlus1()">+1</button>
+                    <button class="btnscore" onclick="guestPlus2()">+2</button>
+                    <button class="btnscore" onclick="guestPlus3()">+3</button>
+                </div>
+            </div>
+            
+            <div class="fouls-period-container">  
+                <div class="fouls-container">
+                    <h4>FOULS</h4>
+                    <div class="btnfouls-container">
+                        <button class="btnfoul" onClick="homeFoulsPlus1()">+1</button>
+                        <p class="fouls" id="home-fouls">0</p>
+                    </div>
+                </div>
+                <div class="period-container">
+                    <h4>PERIOD</h4>
+                    <div class="btnperiod-container">
+                        <button class="btnfoul" onClick="periodPlus1()">+1</button>
+                        <p class="period" id="period">1</p>
+                    </div>
+                </div>
+                <div class="foulds-container">
+                    <h4>FOULS</h4>
+                    <div class="btnfouls-container">
+                        <button class="btnfoul" onClick="guestFoulsPlus1()">+1</button>
+                        <p class="fouls" id="guest-fouls">0</p>
+                    </div>
+                </div>
+            </div> <!-- fouls-period-container -->
+        
+        </div> <!--container -->
+        
+        <button class="btn-newgame" onclick="newGame()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>
